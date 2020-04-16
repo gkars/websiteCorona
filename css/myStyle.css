@@ -1,0 +1,199 @@
+#navbarSupportedContent{
+  margin-left: 28rem;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+  font-family: gotham;
+}
+
+.bi .bi-caret-down{
+  color:green;
+}
+
+.jumbotron{
+    height: 450px;
+    border-radius:0 0 38px 38px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%;
+}
+
+.form-control{
+    border-radius: 38px;
+    height: 30px;
+}
+
+.form-inline .btn{
+    height: 30px;
+    padding: 0;
+    width: 35px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 28px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: center;
+  }
+
+.card-image {
+    grid-area: image;
+  }
+.card-text {
+    grid-area: text;
+  }
+
+.card-image {
+    grid-area: image;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    background-size: cover;
+  }
+
+.card:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+
+  .card {
+  ...
+    transition: 0.5s ease;
+    margin:30px;
+  }
+
+  .cb{
+    border-radius: 28px 0 28px 28px;
+  }
+
+.judul{
+    float: rigth;
+}
+
+.berita{
+    float: left;
+    margin-left: 10%;
+    
+}
+
+.carousel{
+    width: 100%;
+    float: right;
+    margin-left: 20px;
+}
+.card{
+    position: relative;
+}
+.bottom-align-text{
+    position: absolute;
+    bottom:0;
+}
+
+.content{
+    text-align: center;
+}
+
+.mfp-hide{
+    display: none !important;
+}
+
+.button{
+    padding: 20px 40px;
+    border-color:white ;
+    font-size: 17px;
+    font-size: 1.7rem;
+    font-family: tahoma;
+    font-weight: bold;
+    margin-top: 40px;
+    display: inline-block;
+
+}
+
+.button{
+    border: 2px solid white;
+    color : black;
+    text-transform: uppercase;
+    border-radius:38px ;
+    background:white ;
+    font-weight:bold ;
+
+}
+
+.button .fa{
+    margin-left:20px ;
+}
+
+.button:hover, .button:focus{
+    background: transparent;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    outline: none;
+}
+
+.content h1{
+    color: white;
+    font-size: 50px;
+    font-family:Arial ;
+    line-height: 72px;
+    letter-spacing: 2px ;
+    margin:105px 0 0 0 ;
+}
+
+a,
+.button {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a:focus,
+.button:focus, button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+  text-decoration: none;
+}
+
+a,
+button {
+  color: #1F1F1F;
+  outline: medium none;
+}
+
+hr{
+    border: 0.5px solid black;
+}
+
+.video{
+ background-image: linear-gradient(#4F4E66, #808080);
+ height:650px;
+ color: white;
+}
+
+.wiki{
+  padding: 20px 40px 0 40px;
+}
+
+li{
+  margin-right: 20px;
+}
